@@ -59,8 +59,6 @@ The API supports complete **CRUD operations**, along with **filtering, sorting, 
 | GET | `/questions?sort=marks` | Sort by marks |
 | GET | `/questions/random` | Get random active question |
 
-## 📝 Example Request
-
 ### Create Question
 
 **POST** `/questions`
@@ -71,8 +69,11 @@ The API supports complete **CRUD operations**, along with **filtering, sorting, 
   "marks": 5,
   "difficulty": "medium"
 }
+```
 
-##📁Project Structure
+## 📁 Project Structure
+
+```text
 
 Quiz_Questions_API/
 │
